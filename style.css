@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(https://abrakadabra.fun/uploads/posts/2022-02/1643955200_1-abrakadabra-fun-p-besshovnaya-tekstura-kosmosa-1.jpg);
+height: 100dvh;
+background-repeat: no-repeat;
+background-size: 120%;
+background-position: left;
+animation: cosmo 10s infinite linear;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.moon{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    background-image: url(./img/moon\ \(1\).jpg);
+    animation: cosmo 15s infinite linear;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.459);
+
+}
+@keyframes cosmo{
+    from{
+        background-position: left;
+
+    }
+    to {
+        background-position: right;
+    }
+
+}
